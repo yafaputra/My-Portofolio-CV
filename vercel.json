@@ -1,16 +1,10 @@
 {
-  "functions": {
-    "backend/index.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
+  "version": 2,
   "rewrites": [
     {
-      "source": "/api/(.*)",
+      "source": "/api/:path*",
       "destination": "/backend/index.js"
     }
-  ],
-  "env": {
-    "POSTGRES_URL": "@postgres_url"
-  }
+  ]
 }
+ 
