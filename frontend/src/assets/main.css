@@ -1,0 +1,14 @@
+
+/* src/assets/main.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Style untuk animasi scroll yang akan kita pakai nanti */ .before-enter {
+ opacity: 0;
+ transform: translateY(100px);
+ transition: all 1s ease-out;
+}
+.enter {
+ opacity: 1;
+ transform: translateY(0px);
+}
