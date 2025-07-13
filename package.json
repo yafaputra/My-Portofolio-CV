@@ -1,6 +1,10 @@
 {
+  "name": "my-portofolio-cv",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "@vercel/postgres": "^0.10.0",
-    "dotenv": "^17.2.0"
+    "@vercel/postgres": "0.5.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
